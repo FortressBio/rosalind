@@ -18,8 +18,8 @@ import sys
 # DNA sequences taken as input from command line and cleaned up
 with open(sys.argv[1], 'r') as input:
 	lines = input.readlines()
-	s = lines[0].rstrip()
-	t = lines[1].rstrip()
+s = lines[0].rstrip()
+t = lines[1].rstrip()
 
 locations = ""
 # Iterate over s, check to see whether t exists at a given location, store the location data
